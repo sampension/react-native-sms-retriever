@@ -1,4 +1,4 @@
-package com.chaione.velosticsdriver;
+package me.furtado.smsretriever;
 
 import android.content.Context;
 import android.content.ContextWrapper;
