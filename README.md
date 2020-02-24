@@ -67,6 +67,9 @@ _onSmsListenerPressed = async () => {
     console.log(JSON.stringify(error));
   }
 };
+
+// Get App signature, (You can send this to a server for OTPs)
+    const signature = await SmsRetreiver.getSignature();
 ```
 
 > If you have problems to get the SMS content, check the [SMS Rules Wiki Page](https://github.com/Bruno-Furtado/react-native-sms-retriever/wiki/SMS-Rules).
