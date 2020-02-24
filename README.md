@@ -83,6 +83,7 @@ const signature = await SmsRetreiver.getSignature();
 | startSmsRetriever()             | `Promise<Boolean>` | Start to listen for SMS messages.                       |
 | addSmsListener(event: Function) | `Promise<Boolean>` | Get the SMS content with: `event.message`.              |
 | removeSmsListener()             | `Void`             | Stop to listen for SMS messages.                        |
+| getSignature()                  | `Promise<String>`  | Get the App Signature.                                  |
 
 > Check the erros of each method on [Erros Wiki Page](https://github.com/Bruno-Furtado/react-native-sms-retriever/wiki/Errors).
 
