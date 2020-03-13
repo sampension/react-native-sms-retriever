@@ -10,7 +10,7 @@ declare const SmsRetrieverModule: {
   startSmsRetriever: () => Promise<boolean>
   addSmsListener: (callback: (event: SmsListenerEvent) => void) => Promise<boolean>
   removeSmsListener: () => void,
-  RNSmsRetrieverModule: () => Promise<string>
+  getAppSignature: () => Promise<string>
 }
 
 export default SmsRetrieverModule
